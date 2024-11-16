@@ -1,0 +1,65 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 8px;
+    padding-bottom: 8px;
+}
+
+/* Home Section  */
+#home{
+    height: 600px;
+    padding: 50px 20px;
+}
+
+#home::before{
+    height: 800px;
+}
+#home p{
+    font-size: 20px;
+}
+
+
+
+/* Menu Section */
+
+#menu{
+    flex-direction: column;
+}
+
+#menu .box{
+    padding: 0px;
+    margin: 10px 0px;
+    border-radius: 25px;
+    
+}
+
+/* About Us Section */
+#about{
+    overflow: hidden;
+}
+
+/* Contact Us Section */
+#contact-box form{
+    width: 80%;
+}
+
+/* Footer  */
+
+/* Utility Classes  */
+.h-primary{
+    font-size: 5 0px;
+}
+
+.btn{
+    font-size: 15px;
+    padding: 4px 8px;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: black;
+    border: 3px solid gray;
+ }
